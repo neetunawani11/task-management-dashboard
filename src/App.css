@@ -1,0 +1,29 @@
+.app {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
